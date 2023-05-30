@@ -23,4 +23,4 @@ TRADES + Sec.3.2 + Sec.3.3:
 
 [D] = 'pgd', 'apgd-ce', 'apgd-t', 'fab-t', or 'square'. The specific type of attack technique.
 
-After running the command, you should find the saved files for all mini-batches in the `./MDEQ-Vision/output/cifar10/{pgd_base/pgd_sec33/trades_base/trades_sec33}_cls_mdeq_LARGE_reg/` directory. We've provided two scripts `stat.py` and `res.py` for the calculation of the standard and robust acc. at each state z_n -- check the [README.md]() for details.
+After running the command, you should find the saved files for all mini-batches in the `./MDEQ-Vision/output/cifar10/{pgd_base/pgd_sec33/trades_base/trades_sec33}_cls_mdeq_LARGE_reg/` directory. We've provided two scripts `stat.py` and `res.py` for the calculation of the standard and robust acc. at each state z_n -- check the [README.md](https://github.com/minicheshire/DEQ-Regulating-Neural-Dynamics/blob/master/input-entropy-reduction/MDEQ-Vision/output/cifar10/trades_sec33_cls_mdeq_LARGE_reg/README.md) for details.
